@@ -1,14 +1,16 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "targets": [
+    { "id": 1, "name": "Coca-COla", "status": "researching", "contacts": [{"name": "Art Vandalay", "email": "avandaly@coke.com", "phone":"555-123-4567"},
+       {"name": "George Costanza", "email": "gcostanza@coke.com", "phone":"555-123-5678"}], "info": {"location": "Atlanta, GA", "website": "www.coca-colacompany.com", "employees": "10,000+", "industry": "Food & Beverages", "ticker": "KO"}},
+    
+    { "id": 2, "name": "Wal-Mart Stores Inc.", "status": "pending approval", "contacts": [{"name": "Sam Walton", "email": "swalton@walmart.com", "phone":"555-321-1234"}], "info": {"location": "Bentonville, AR", "website": "www.walmartstores.com", "employees": "10,000+", "industry": "Retail", "ticker": "WMT"} },
+    
+    { "id": 3, "name": "The Walt Disney Company", "status": "declined", "contacts": [{"name": "Bob Iger", "email": "biger@disney.com", "phone":"555-987-0001"},
+       {"name": "Kathy Kennedy", "email": "kkennedy@disney.com", "phone":"555-987-0002"}], "info": {"location": "Burbank, CA", "website": "www.disney.com", "employees": "10,000+", "industry": "Amusement Parks, Media & Internet", "ticker": "DIS"} },
+    
+    { "id": 4, "name": "Home Depot Inc.", "status": "approved", "contacts": [{"name": "Arthur Blank", "email": "ablank@hd.com", "phone":"404-123-4567"},
+       {"name": "Bernie Marcus", "email": "bmarcus@hd.com", "phone":"404-678-2345"}], "info": {"location":"Atlanta, GA", "website": "www.homedepot.com", "employees": "10,000+", "industry": "Retail", "ticker": "HD"} },
+    
+    { "id": 5, "name": "United Technologies Corp", "status": "researching", "contacts": [{"name": "Greg Hayes", "email": "GHayes@sikorsky.com", "phone":"860-135-2468"}], "info": {"location": "Farnington, CT", "website": "utc.com", "employees": "10,000+", "industry": "Aerospace", "ticker": "UTX"} }                                                                                                  
+  ]
 }
