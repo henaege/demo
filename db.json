@@ -1,6 +1,6 @@
 {
   "targets": [
-    { "id": 1, "name": "Coca-COla", "status": "researching", "contacts": [{"name": "Art Vandalay", "email": "avandaly@coke.com", "phone":"555-123-4567"},
+    { "id": 1, "name": "Coca-Cola", "status": "researching", "contacts": [{"name": "Art Vandalay", "email": "avandaly@coke.com", "phone":"555-123-4567"},
        {"name": "George Costanza", "email": "gcostanza@coke.com", "phone":"555-123-5678"}], "info": {"location": "Atlanta, GA", "website": "www.coca-colacompany.com", "employees": "10,000+", "industry": "Food & Beverages", "ticker": "KO"}},
     
     { "id": 2, "name": "Wal-Mart Stores Inc.", "status": "pending approval", "contacts": [{"name": "Sam Walton", "email": "swalton@walmart.com", "phone":"555-321-1234"}], "info": {"location": "Bentonville, AR", "website": "www.walmartstores.com", "employees": "10,000+", "industry": "Retail", "ticker": "WMT"} },
